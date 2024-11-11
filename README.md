@@ -1,12 +1,12 @@
 # Admin Console
 
-Admin Console is a Windows-only .NET 8.0 console application designed to launch a new administrator console host. The application can take optional switch arguments to specify the type of console host to launch or detect the running application and launch the appropriate console host.
+Admin Console is a Windows-only .NET 8.0 console application designed to launch a new administrator console host. The application can take optional switch arguments to specify the type of console host to launch or detect the running console host and launch the appropriate console host.
 
 ## Features
 
 - Detects the current console host and determines if it is within Windows Terminal.
 - Launches a new Windows Terminal as an administrator.
-- Launches a new console host (cmd, PowerShell, or Windows PowerShell) as an administrator.
+- Launches a new console host (Command Prompt, PowerShell, or Windows PowerShell) as an administrator.
 - Detects if user denies User Account Control (UAC) prompt for admin rights and outputs a console message
 
 ## Requirements
