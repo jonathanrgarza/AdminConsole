@@ -30,9 +30,14 @@ The `--wt` option caused be used with `--cmd`, `--powershell`, or `--winpowershe
 
 ### Examples
 
-Launch a new Windows Terminal as an administrator:
+Launch a new console host using the detected console host as an administrator:
 ```sh
-admin --wt
+admin
+```
+
+Launch a new Windows Terminal using the Command Prompt profile as an administrator:
+```sh
+admin --wt --cmd
 ```
 
 Launch a new Command Prompt (cmd) as an administrator:
