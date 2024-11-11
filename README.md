@@ -70,6 +70,20 @@ To build the Admin Console application, follow these steps:
 
 The build output will be located in the `bin` directory within your project folder.
 
+## Publish
+
+To build the Admin Console application in a finished state, follow these steps:
+
+1. Ensure you have the .NET 8.0 SDK installed on your machine.
+2. Open a command prompt or terminal window.
+3. Navigate to the project directory.
+5. Build/Publish the project:
+    ```sh
+    dotnet publish -r win-x64 -c Release
+    ```
+
+The build output will be located in the `bin\Release\net8.0-windows\win-x64\publish` directory within your project folder.
+
 ## License
 
 This project is privately owned. Users are permitted to clone, build and use the built project for personal purposes. Redistribution, modification, or commercial use is not allowed without explicit permission from the owner.
